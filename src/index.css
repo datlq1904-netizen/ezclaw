@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-zinc-900 text-zinc-100 antialiased h-screen overflow-hidden;
+    /* Frameless window drag area */
+    -webkit-app-region: drag;
+  }
+  
+  /* Make interactive elements undraggable so they can be clicked */
+  button, input, textarea, select, .no-drag {
+    -webkit-app-region: no-drag;
+  }
+}
+
+/* Custom scrollbar for minimalist look */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #52525b;
+  border-radius: 10px;
+}
