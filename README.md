@@ -1,6 +1,7 @@
 <img width="275" height="153" alt="Gemini_Generated_Image_6djghj6djghj6djg" src="https://github.com/user-attachments/assets/752e93d0-51e4-4838-b021-0d05f51c8048" />
 
   <p><strong>Let AI take the wheel. EZClaw physically controls your PC, automating tasks while you sit back and relax.</strong></p>
+ 
   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
  
   [![Platform](https://img.shields.io/badge/Platform-Windows-blue.svg)](#)
