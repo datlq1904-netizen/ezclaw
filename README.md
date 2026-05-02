@@ -93,7 +93,8 @@ Building an autonomous AI agent takes countless hours of coding, testing, and co
 > `0xe573a07e808b1c3907fb31b4058598a752abf35e`
 
 *Every contribution helps keep this project alive and updated with the latest AI models! ❤️*
-**Contact:****** dat.lq1904@gmail.com
+
+**Contact:** dat.lq1904@gmail.com
 
 ---
 
