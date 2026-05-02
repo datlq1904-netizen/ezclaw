@@ -25,6 +25,7 @@ Instead of just chatting with an AI, you can tell EZClaw to "Open Chrome, search
 - 🧠 **Dynamic AI Brains**: Connects seamlessly with over 300+ LLMs via direct APIs or OpenRouter.
   - *Vision-capable models* (GPT-4o, Gemini 3.1 Pro, Claude 3.5 Sonnet) utilize screenshots for precise navigation.
   - *Text-only models* (DeepSeek, Llama 4, Grok) navigate blindly using estimated coordinates and system shortcuts!
+- 🧩 **Community Custom Skills**: Extend EZClaw's capabilities infinitely! Drop OpenClaw-compatible JSON/JS plugins into the `custom_skills` folder and the AI will dynamically learn new tools at runtime.
 - ⚡ **Autonomous Heartbeat Loop**: Schedule tasks for the future. EZClaw wakes up, completes the task on your PC, and goes back to sleep.
 - 🛡️ **Built-in Kill Switch**: Press `Ctrl+Shift+K` at any time to instantly stop all AI actions and regain manual control.
 - 💬 **Clean UX**: A sleek, dark-themed dashboard that filters out noisy tool logs, showing you only the clean conversation history.
@@ -67,6 +68,15 @@ You will find the installer in the `dist` folder.
 
 ---
 
+## 🧩 Installing Custom Skills (Plugins)
+You can extend EZClaw by installing community-made skills!
+1. Download a skill folder containing `schema.json` and `index.js`.
+2. Press `Win + R` and type `%APPDATA%\ezclaw-agent\custom_skills\`.
+3. Paste the downloaded folder into this directory.
+4. Open EZClaw, navigate to **Custom Skills**, and click **Reload Skills**. The AI instantly learns how to use them!
+
+---
+
 ## ⚙️ How It Works
 1. **User Request**: You ask EZClaw to do something (e.g., "Open Notepad and code "Hello World").
 2. **Context Gathering**: If using a vision model, EZClaw silently captures your screen and feeds it to the LLM.
@@ -85,7 +95,6 @@ Contributions are what make the open-source community such an amazing place to l
 5. Open a Pull Request
 
 ---
-
 ## ☕ Support & Donate
 Building an autonomous AI agent takes countless hours of coding, testing, and coffee! If EZClaw has saved you time, automated your boring tasks, or you just want to support future development, please consider donating.
 
