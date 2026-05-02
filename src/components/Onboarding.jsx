@@ -3,7 +3,7 @@ import { User, Globe, Check, ChevronRight } from 'lucide-react';
 
 function Onboarding({ onComplete }) {
   const [name, setName] = useState('');
-  const [lang, setLang] = useState('vi');
+  const [lang, setLang] = useState('en');
 
   const handleComplete = () => {
     if (!name.trim()) return;
